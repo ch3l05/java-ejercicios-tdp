@@ -4,6 +4,8 @@
  */
 package cac.java.tdp;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Rhaynel Parra Aguiar <mail@rhynl.io>
@@ -15,6 +17,15 @@ public class Main {
      */
     public static void main(String[] args) {
         
+Scanner teclado = new Scanner (System.in);
+String x;
+System.out.println("QUIEN SOS ?");
+x = teclado.nextLine();
+System.out.println("HOLA "+ x);
+
+
+
+
     }
     
 }
